@@ -1,0 +1,15 @@
+{
+  "highest_price_since_c": 0.0,
+  "holding_lots": [
+    {
+      "shares": 2700,
+      "entry_date": "2026-04-03",
+      "entry_price": 1.578
+    },
+    {
+      "shares": 3200,
+      "entry_date": "2026-04-03",
+      "entry_price": 1.578
+    }
+  ]
+}

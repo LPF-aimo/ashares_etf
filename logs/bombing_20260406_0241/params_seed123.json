@@ -1,0 +1,47 @@
+{
+  "base_shares": 600,
+  "base_grid_amount": 1923.8383932271524,
+  "fee_rate": 8.5e-05,
+  "min_fee": 1.0,
+  "adx_threshold": 15,
+  "states": {
+    "A": {
+      "bias_threshold": 0.0,
+      "buy_mult": 1.1417052769548648,
+      "sell_mult": 2.0,
+      "amount_mult": 0.525677670552576
+    },
+    "B": {
+      "bias_threshold": -0.13823092671620768,
+      "buy_mult": 1.109089678321651,
+      "sell_mult": 0.4627655550731139,
+      "amount_mult": 1.806930694827294
+    },
+    "C": {
+      "bias_threshold": 0.0,
+      "buy_mult": 0.9756114115059853,
+      "sell_mult": 1.0,
+      "amount_mult": 0.7087295670197971
+    },
+    "D": {
+      "bias_threshold": 0.0,
+      "buy_mult": 0.631923258981321,
+      "sell_mult": 0.8,
+      "amount_mult": 0.018427993897741517
+    },
+    "E": {
+      "bias_threshold": 0.0,
+      "buy_mult": 1.4361540889687767,
+      "sell_mult": 1.0,
+      "amount_mult": 0.5474246804508509
+    }
+  },
+  "tactics": {
+    "profit_protect_pct": 1.05,
+    "standard_sell_atr_mult": 0.8,
+    "gap_up_atr_threshold": 1.0963293145736985,
+    "gap_down_atr_threshold": 1.4592452683309167,
+    "trailing_stop_atr_mult": 1.0,
+    "max_hold_days": 6
+  }
+}
